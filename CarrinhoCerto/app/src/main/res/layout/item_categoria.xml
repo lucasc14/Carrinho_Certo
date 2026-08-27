@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/tvNomeCategoria"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textColor="@color/neutral_dark"
+        android:text="Nome da Categoria" />
+
+    <!-- Botão Editar -->
+    <ImageButton
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Editar categoria"
+        android:layout_marginEnd="16dp"
+        android:tint="@color/primary"/>
+
+    <!-- Botão Remover -->
+    <ImageButton
+        android:id="@+id/btnRemover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Remover categoria"
+        android:tint="@color/danger"/>
+
+</LinearLayout>

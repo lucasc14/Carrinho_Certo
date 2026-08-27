@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_listas"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/menu_listas" />
+
+
+
+        <item
+            android:id="@+id/nav_criarListas"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/listas_criarListas" />
+
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Histórico" />
+
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Perfil" />
+
+
+
+
+
+    </group>
+</menu>

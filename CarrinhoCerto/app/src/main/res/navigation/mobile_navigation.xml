@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_listas">
+
+    <fragment
+        android:id="@+id/nav_transform"
+        android:name="com.example.carrinhocerto.ui.transform.TransformFragment"
+        android:label="@string/menu_transform"
+        tools:layout="@layout/fragment_transform" />
+
+    <fragment
+        android:id="@+id/nav_listas"
+        android:name="com.example.carrinhocerto.ui.listas.ListasFragment"
+        android:label="@string/menu_listas"
+        tools:layout="@layout/fragment_transform" />
+
+    <fragment
+        android:id="@+id/nav_editarListas"
+        android:name="com.example.carrinhocerto.ui.listas.EditarListasFragment"
+        android:label="@string/listas_editarListas"
+        tools:layout="@layout/fragment_editar_listas" />
+
+    <fragment
+        android:id="@+id/nav_criarListas"
+        android:name="com.example.carrinhocerto.ui.listas.CriarListasFragment"
+        android:label="@string/listas_criarListas"
+        tools:layout="@layout/fragment_criar_listas" />
+
+
+    <fragment
+        android:id="@+id/nav_checkoutListas"
+        android:name="com.example.carrinhocerto.ui.listas.CheckoutListasFragment"
+        android:label="@string/listas_checkoutListas"
+        tools:layout="@layout/fragment_checkout_listas" />
+
+    <fragment
+        android:id="@+id/nav_historico"
+        android:name="com.example.carrinhocerto.ui.historico.HistoricoFragment"
+        android:label="@string/menu_historico"
+        tools:layout="@layout/fragment_historico" />
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.carrinhocerto.ui.perfil.PerfilFragment"
+        android:label="Meu Perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+
+
+    <fragment
+        android:id="@+id/nav_reflow"
+        android:name="com.example.carrinhocerto.ui.reflow.ReflowFragment"
+        android:label="@string/menu_reflow"
+        tools:layout="@layout/fragment_reflow" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.carrinhocerto.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.carrinhocerto.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
